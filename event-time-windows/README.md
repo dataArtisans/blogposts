@@ -13,7 +13,7 @@ The stream is analyzed in three ways simultaneously, printing the results to std
   - **Event Time Windows**: Computing average reading per sensor per minute (sliding) based on event timestamp. The windows have a delay of a few seconds, because they are only computed once the event time watermark signals that all relevant events have been received.
 
 
-The main class of this applications are [Application.java](https://github.com/dataArtisans/blogposts/blob/master/event-time-windows/src/main/java/com/dataartisans/blogpost/eventtime/java/Application.java) (Java), and [Application.scala](...) (Scala) respectively.
+The main class of this applications are [Application.java](src/main/java/com/dataartisans/blogpost/eventtime/java/Application.java) (Java), and [Application.scala](src/main/scala/com/dataartisans/blogpost/eventtime/scala/Application.scala) (Scala) respectively.
 
 
 
